@@ -8,7 +8,7 @@ task main()
 	float TargetDegree;
 	int motorSpeed = 10;
 
-	TargetDegree = 100/20/3*360;
+	TargetDegree = 100.0/20.0/3.0*360.0;
 
 	resetMotorEncoder(leftMotor);
 	setMotorBrakeMode(leftMotor, motorHold);
